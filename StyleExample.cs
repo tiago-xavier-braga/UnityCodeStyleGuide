@@ -1,39 +1,21 @@
 // STYLE SHEET EXAMPLE
 
 // GENERAL:
-// - This is an example Style Guide for use with your Unity project.
-// - Omit or add to these rules to fit your team's preferences.
 // - Use an example style guide to start:
 // - Microsoft's Framework Design Guidelines are here: https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/
 // - Google also maintains a style guide here: https://google.github.io/styleguide/csharp-style.html
 
-// - Customize these rules to build your own team style guide, then apply consistently. 
-// - When in doubt, your team's style guide prevails.
-
 // NAMING/CASING:
-// - Use Pascal case (e.g. ExamplePlayerController, MaxHealth, etc.) unless noted otherwise
-// - Use camel case (e.g. examplePlayerController, maxHealth, etc.) for local/private variables, parameters.
-// - Avoid snake case, kebab case, Hungarian notation
-// - If you have a Monobehaviour in a file, the source file name must match. 
+// - Use Pascal case (e.g. ExamplePlayerController, MaxHealth, etc.) unless noted otherwise.
+// - Use camel case (e.g. examplePlayerController, maxHealth, etc.) for local variables, parameters.
+// - Use underscore notation (e.g _examplePlayerController, etc.) for private variables.
 
 // FORMATTING:
-// - Choose K&R (opening curly braces on same line) or Allman (opening curly braces on a new line) style braces.
-// - Keep lines short. Consider horizontal whitespace. Define a standard line width in your style guide (80-120 characters). 
 // - Use a single space before flow control conditions, e.g. while (x == y)
 // - Avoid spaces inside brackets, e.g. x = dataArray[index]
 // - Use a single space after a comma between function arguments.
 // - Don’t add a space after the parenthesis and function arguments, e.g. CollectItem(myObject, 0, 1);
 // - Don’t use spaces between a function name and parenthesis, e.g. DropPowerUp(myPrefab, 0, 1);
-// - Use vertical spacing (extra blank line) for visual separation. 
-
-// COMMENTS:
-// - Rather than simply answering "what" or "how," comments can fill in the gaps and tell us "why."
-// - Use the // comment to keep the explanation next to the logic.
-// - Use a Tooltip instead of a comment for serialized fields. 
-// - Avoid Regions. They encourage large class sizes. Collapsed code is more difficult to read. 
-// - Use a link to an external reference for legal information or licensing to save space.
-// - Use a summary XML tag in front of public methods or functions for output documentation/Intellisense.
-
 
 // USING LINES:
 // - Keep using lines at the top of your file.
@@ -107,7 +89,7 @@ namespace StyleSheetExample
         // - Avoid special characters (backslashes, symbols, Unicode characters); these can interfere with command line tools.
         // - Use nouns for names, but prefix booleans with a verb.
         // - Use meaningful names. Make names searchable and pronounceable. Don’t abbreviate (unless it’s math).
-        // - Use Pascal case for public fields. Use camel case for private variables.
+        // - Use Pascal case for public fields. Use underscore notation for private variables.
         // - Add an underscore (_) in front of private fields to differentiate from local variables
         // - You can alternatively use more explicit prefixes: m_ = member variable, s_ = static, k_ = const
         // - Specify (or omit) the default access modifier; just be consistent with your style guide.
@@ -116,17 +98,22 @@ namespace StyleSheetExample
 
         // Use [SerializeField] attribute if you want to display a private field in Inspector.
         // Booleans ask a question that can be answered true or false.
-        [SerializeField] private bool _isPlayerDead;
+        [SerializeField] 
+        private bool _isPlayerDead;
 
         // This groups data from the custom PlayerStats class in the Inspector.
-        [SerializeField] private PlayerStats _stats;
+        [SerializeField] 
+        private PlayerStats _stats;
 
         // This limits the values to a Range and creates a slider in the Inspector.
-        [Range(0f, 1f)] [SerializeField] private float _rangedStat;
+        [Range(0f, 1f)] 
+        [SerializeField] 
+        private float _rangedStat;
 
         // A tooltip can replace a comment on a serialized field and do double duty.
         [Tooltip("This is another statistic for the player.")]
-        [SerializeField] private float _anotherStat;
+        [SerializeField] 
+        private float _anotherStat;
 
 
         // PROPERTIES:

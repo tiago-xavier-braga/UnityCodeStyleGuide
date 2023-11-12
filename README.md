@@ -1,26 +1,21 @@
-# An example of a Unity C# code style guide
+# Unity Code Style Guide
 
-## Why should you consider a code style guide?
-A code style guide provides a clear set of rules or guidelines that each developer on a team should adhere to when writing code.
-While there is no one correct way to format your Unity C# code, agreeing on a consistent style across the team can help you develop a clean, readable, and scalable codebase. A code style guide helps you remove the guesswork for every member of your team by establishing consensus around important coding conventions, thereby supporting the growth of your codebase into a commercial-scale production.
-We created this example code style guide as a source of inspiration for Unity developers. 
+Este repositório é um clone do [Unity Code Style Guide](https://github.com/thomasjacobsen-unity/Unity-Code-Style-Guide) original, mantido por [Thomas Jacobsen](https://github.com/thomasjacobsen-unity). O objetivo deste guia é estabelecer diretrizes de estilo de código em C# para projetos Unity, promovendo boas práticas e consistência no código.
 
-## How to use the guide
-Find inspiration in existing guides as a starting point to creating your own. Our [guide](https://resources.unity.com/games/create-code-style-guide-e-book) focuses on the most common coding conventions you’ll encounter during Unity development. These are essentially all a subset of the [Microsoft Framework Design guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/), which include an extensive number of rules beyond what is presented here.
-The guidelines we provide are recommendations, not hard and fast rules. Review each rule in the example style guide and customize it to your team’s preferences. The specifics of an individual rule are less important than having everyone agree to follow it consistently. When in doubt, rely on your team’s own guide to settle any style disagreements.
-Your style guide should take precedence over our suggestions or the Microsoft Framework Design guidelines, if they are in conflict. This will allow your team to maintain a uniform style throughout your project.
+## Padronização de Código em Projetos Unity
 
-## Who created this guide and how can I use it?
-We created the [guide](https://resources.unity.com/games/create-code-style-guide-e-book) based on best practices shared by internal and external Unity experts. A big thanks goes to [Unity Game Academy](https://github.com/UnityGameAcademy) for their significant contribution in bringing the guide together. 
-As a lead on the project behind our accompanying e-book, [Creating a C# style guide for clean and scalable game code](https://resources.unity.com/games/create-code-style-guide-e-book), I chose to make the guide available here on my Unity GitHub account. This guide is a product of our own subjective opinions, and as such, it is legally meant to serve as an example for inspiration only.
+A padronização de código é uma prática essencial em projetos de desenvolvimento de software, e para projetos Unity, não é diferente. Aqui estão algumas razões pelas quais a padronização de código é crucial:
 
-You can also find two webbased articles here:<br>
-[Naming and code style tips](https://unity.com/how-to/naming-and-code-style-tips-c-scripting-unity)<br>
-[Formatting best practices](https://unity.com/how-to/formatting-best-practices-c-scripting-unity)
+- **Legibilidade do Código:** Padronizar o código promove uma estrutura consistente, tornando-o mais fácil de entender para os desenvolvedores, facilitando a manutenção e colaboração no projeto.
 
-Remember, a good style guide is one that fits your needs and covers the majority of the day-to-day use cases in your game development.
-Our intention is for you to use the style guide as a starting point, or as bits and pieces in your own guide.
-![Download our ebook](https://blog-api.unity.com/sites/default/files/styles/focal_crop_ratio_16_9/public/2022-09/C%23Guide-Blog%20Post_1620x900.jpg?imwidth=1920&itok=IWYleXeT)
+- **Consistência:** Quando todos os desenvolvedores seguem as mesmas diretrizes de estilo, o código se torna mais consistente. Isso é particularmente importante em projetos grandes e em equipes com vários membros.
 
-## Interested in learning more?
-If you’d like further inspiration for creating your own code style guide, check out our upcoming blog post and our new e-book, [Create a C# style guide: Write cleaner code that scales](https://resources.unity.com/games/create-code-style-guide-e-book).
+- **Facilita a Manutenção:** Projetos Unity frequentemente evoluem com o tempo. Uma base de código bem padronizada facilita a manutenção contínua, mesmo quando há mudanças na equipe de desenvolvimento.
+
+- **Redução de Erros:** A padronização de código pode ajudar a prevenir erros comuns e melhorar a qualidade geral do código, garantindo que boas práticas sejam seguidas.
+
+- **Integração mais Suave:** Projetos que aderem a padrões de codificação comuns têm uma integração mais suave com ferramentas, plugins e bibliotecas externas.
+
+## Créditos
+
+Este repositório é um clone do [Unity Code Style Guide](https://github.com/thomasjacobsen-unity/Unity-Code-Style-Guide), mantido por [Thomas Jacobsen](https://github.com/thomasjacobsen-unity). Agradecemos pelo trabalho dedicado à criação e manutenção do guia original.

@@ -1,5 +1,4 @@
-# Unity Code Style Guide
-
+# Style Example
 Este repositório é um clone do [Unity Code Style Guide](https://github.com/thomasjacobsen-unity/Unity-Code-Style-Guide) original, mantido por [Thomas Jacobsen](https://github.com/thomasjacobsen-unity). O objetivo deste guia é estabelecer diretrizes de estilo de código em C# para projetos Unity, promovendo boas práticas e consistência no código.
 
 ## Padronização de Código em Projetos Unity
@@ -15,7 +14,3 @@ A padronização de código é uma prática essencial em projetos de desenvolvim
 - **Redução de Erros:** A padronização de código pode ajudar a prevenir erros comuns e melhorar a qualidade geral do código, garantindo que boas práticas sejam seguidas.
 
 - **Integração mais Suave:** Projetos que aderem a padrões de codificação comuns têm uma integração mais suave com ferramentas, plugins e bibliotecas externas.
-
-## Créditos
-
-Este repositório é um clone do [Unity Code Style Guide](https://github.com/thomasjacobsen-unity/Unity-Code-Style-Guide), mantido por [Thomas Jacobsen](https://github.com/thomasjacobsen-unity). Agradecemos pelo trabalho dedicado à criação e manutenção do guia original.

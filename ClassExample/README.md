@@ -1,0 +1,2 @@
+# Guia de Estilo para Classes em Projetos Unity
+Este guia estabelece diretrizes de estilo para a escrita de classes em C# em projetos Unity. A adoção dessas práticas contribui para a legibilidade do código, consistência e manutenção eficiente. Certifique-se de seguir estas diretrizes ao criar ou modificar classes em seu projeto Unity.
